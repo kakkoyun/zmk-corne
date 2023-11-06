@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - nav
-  - RIGHT COMMAND
+  - RGUI
   nav:
   - $$mdi:apple-keyboard-option$$
   - F1

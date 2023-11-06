@@ -56,7 +56,7 @@ layers:
   - END
   - SLEEP
   - VOLUME UP
-  - LA(LGUI))
+  - LA(LGUI)
   - F6
   - F7
   - F8

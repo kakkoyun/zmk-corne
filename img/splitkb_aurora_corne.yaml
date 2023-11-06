@@ -41,9 +41,9 @@ layers:
   - symbol
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - sysctl
+  - NAV
   - RIGHT COMMAND
-  sysctl:
+  NAV:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
@@ -172,7 +172,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  kbctl:
+  sysctl:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

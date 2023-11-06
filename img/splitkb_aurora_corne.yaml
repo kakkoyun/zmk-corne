@@ -56,7 +56,7 @@ layers:
   - END
   - SLEEP
   - VOLUME UP
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LA(LGUI))
   - F6
   - F7
   - F8

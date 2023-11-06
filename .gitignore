@@ -1,3 +1,10 @@
 *.zip
 /dist
 *.uf2
+/.west
+/zephyr
+/zmk
+/modules
+/tools
+/bootloader
+/build

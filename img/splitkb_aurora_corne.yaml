@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '''', h: RIGHT ALT, s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
@@ -44,7 +44,7 @@ layers:
   - nav
   - RIGHT COMMAND
   nav:
-  - LEFT ALT
+  - $$mdi:apple-keyboard-option$$
   - F1
   - F2
   - F3
@@ -68,7 +68,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - AL SCREENSAVER
   - VOLUME DOWN
-  - LEFT SHIFT
+  - $$mdi:apple-keyboard-shift$$
   - F11
   - F12
   - F13
@@ -111,7 +111,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '-', s: _}
-  - LEFT SHIFT
+  - $$mdi:apple-keyboard-shift$$
   - {t: '`', s: '~'}
   - '~'
   - '|'

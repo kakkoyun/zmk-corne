@@ -41,9 +41,9 @@ layers:
   - symbol
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - NAV
+  - nav
   - RIGHT COMMAND
-  NAV:
+  nav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2

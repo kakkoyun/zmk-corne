@@ -87,42 +87,42 @@ layers:
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   symbol:
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:apple-keyboard-option$$
   - '!'
   - '@'
-  - '{'
-  - '}'
-  - _
-  - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '#'
   - $
-  - (
-  - )
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - '&'
-  - {t: '''', s: '"'}
-  - '"'
-  - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:bluetooth-off$$
   - '%'
   - ^
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - +
+  - '&'
   - '*'
+  - (
+  - )
+  - '"'
+  - $$mdi:apple-keyboard-control$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - LEFT SHIFT
+  - {t: '`', s: '~'}
   - '~'
+  - '|'
+  - {t: '[', s: '{'}
+  - '{'
+  - '}'
+  - {t: ']', s: '}'}
   - <
   - '>'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

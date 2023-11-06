@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
@@ -40,9 +40,9 @@ layers:
   - LGUI
   - symbol
   - {t: '$$mdi:backspace$$', type: backspace}
-  - SPC
+  - $$mdi:keyboard-space$$
   - sysctl
-  - LS(LC(LA(LGUI)))
+  - RIGHT COMMAND
   sysctl:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
@@ -71,8 +71,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F13
+  - F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:skip-previous$$

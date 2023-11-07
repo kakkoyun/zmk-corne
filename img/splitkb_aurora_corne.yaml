@@ -87,7 +87,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   symbol:
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', h: LEFT ALT}
   - '!'
   - '@'
   - '#'
@@ -99,7 +99,7 @@ layers:
   - (
   - )
   - '"'
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -126,9 +126,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   number:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '1', s: '!'}

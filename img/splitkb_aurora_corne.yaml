@@ -56,7 +56,7 @@ layers:
   - END
   - SLEEP
   - VOLUME UP
-  - LA(LGUI)
+  - $$mdi:apple-keyboard-control$$
   - F6
   - F7
   - F8
@@ -81,8 +81,8 @@ layers:
   - $$mdi:lock$$
   - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - LEFT CONTROL
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LS(LC(LA(LGUI)))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}

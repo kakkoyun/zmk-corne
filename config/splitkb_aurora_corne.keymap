@@ -39,10 +39,10 @@
 
         nav_layer {
             bindings = <
-&kp LALT    &kp F1   &kp F2   &kp F3    &kp F4   &kp F5       &kp PAGE_UP    &kp HOME    &kp UP            &kp END     &kp C_SLEEP           &kp C_VOLUME_UP
-&kp LAG     &kp F6   &kp F7   &kp F8    &kp F9   &kp F10      &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_AL_SCREENSAVER  &kp C_VOLUME_DOWN
-&kp LSHIFT  &kp F11  &kp F12  &kp F13   &kp F14  &kp F15      &none          &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_AL_LOCK         &kp K_MUTE
-                              &kp LGUI  &trans   &kp SPACE    &none          &trans      &kp RALT
+&kp LALT    &kp F1   &kp F2   &kp F3   &kp F4   &kp F5              &kp PAGE_UP    &kp HOME    &kp UP            &kp END     &kp C_SLEEP           &kp C_VOLUME_UP
+&kp LAG     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10             &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_AL_SCREENSAVER  &kp C_VOLUME_DOWN
+&kp LSHIFT  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15             &none          &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_AL_LOCK         &kp K_MUTE
+                              &trans   &trans   &kp LEFT_CONTROL    &none          &trans      &trans
             >;
         };
 

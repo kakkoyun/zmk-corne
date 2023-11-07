@@ -80,12 +80,12 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:lock$$
   - MUTE
-  - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LEFT CONTROL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   symbol:
   - $$mdi:apple-keyboard-option$$
   - '!'

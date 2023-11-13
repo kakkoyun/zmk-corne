@@ -46,9 +46,9 @@ layers:
   nav:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mmv MOVE_VERT(-1250)'
-  - '&mwh SCROLL_VERT(100)'
+  - {h: '1', s: '$$mdi:chevron-double-down$$'}
+  - {h: '1', s: '$$mdi:chevron-double-up$$'}
+  - {h: '1', s: '$$mdi:chevron-double-up$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAGE UP
   - HOME
@@ -58,9 +58,9 @@ layers:
   - VOLUME UP
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_HOR(-1250)'
-  - '&mmv MOVE_VERT(1250)'
-  - '&mmv MOVE_HOR(1250)'
+  - {h: '1', s: '$$mdi:chevron-double-left$$'}
+  - {h: '1', s: '$$mdi:chevron-double-down$$'}
+  - {h: '1', s: '$$mdi:chevron-double-right$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAGE DOWN
   - $$mdi:arrow-left-bold$$
@@ -72,8 +72,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - {h: '1', s: '$$mdi:mouse-variant$$'}
+  - {h: '1', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -83,8 +84,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LS(LC(LA(LGUI)))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   symbol:
   - {t: '$$mdi:backspace$$', h: LEFT ALT}
   - '!'

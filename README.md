@@ -4,6 +4,8 @@ splitkb.com Aurora Corne ZMK Config with nice!nano and nice!view
 
 ## Builds
 
+Builds are available on [Actions](
+
 ### Download the latest firmware
 
 ```shell
@@ -12,11 +14,21 @@ gh api -H "Accept: application/vnd.github+json" /repos/kakkoyun/zmk-corne/action
 make latest
 ```
 
+## Layout
+
 ---
 
 <img src="img/splitkb_aurora_corne.svg" alt="keymap layout graphical representation" width="100%" />
 
 > Drawn with [Keymap Drawer](/caksoylar/keymap-drawer)
+
+---
+
+## Photos
+
+[![Wired](img/wired.jpeg)](img/wired.jpeg)
+[![Wireless](img/wireless.jpeg)](img/wireless.jpeg)
+[![nice!view](img/nice!view.jpeg)](img/nice!view.jpeg)
 
 ## Inspiration
 

@@ -465,54 +465,34 @@ parse_config:
 
     # Mouse
     "&mmv MOVE_VERT(-1250)":
-      shifted: $$mdi:chevron-double-up$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-up$$
 
     "&mmv MOVE_VERT(1250)":
-      shifted: $$mdi:chevron-double-down$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-down$$
 
     "&mmv MOVE_HOR(-1250)":
-      shifted: $$mdi:chevron-double-left$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-left$$
 
     "&mmv MOVE_HOR(1250)":
-      shifted: $$mdi:chevron-double-right$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-right$$
 
     "&mkp MB1":
-      shifted: $$mdi:mouse$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:mouse$$
 
     "&mkp MB2":
-      shifted: $$mdi:mouse-variant$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:mouse-variant$$
 
     "&mwh SCROLL_VERT(100)":
-      shifted: $$mdi:chevron-double-up$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-up$$
 
     "&mwh SCROLL_VERT(-100)":
-      shifted: $$mdi:chevron-double-down$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-down$$
 
     "&mwh SCROLL_HOR(-100)":
-      shifted: $$mdi:chevron-double-left$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-left$$
 
     "&mwh SCROLL_HOR(100)":
-      shifted: $$mdi:chevron-double-right$$
-      tap: ""
-      hold: 1
+      tap: $$mdi:chevron-double-right$$
 
   # ZMK
   zmk_keycode_map:

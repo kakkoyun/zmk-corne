@@ -46,9 +46,9 @@ layers:
   nav:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '1', s: '$$mdi:chevron-double-down$$'}
-  - {h: '1', s: '$$mdi:chevron-double-up$$'}
-  - {h: '1', s: '$$mdi:chevron-double-up$$'}
+  - $$mdi:chevron-double-down$$
+  - $$mdi:chevron-double-up$$
+  - $$mdi:chevron-double-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAGE UP
   - HOME
@@ -58,9 +58,9 @@ layers:
   - VOLUME UP
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '1', s: '$$mdi:chevron-double-left$$'}
-  - {h: '1', s: '$$mdi:chevron-double-down$$'}
-  - {h: '1', s: '$$mdi:chevron-double-right$$'}
+  - $$mdi:chevron-double-left$$
+  - $$mdi:chevron-double-down$$
+  - $$mdi:chevron-double-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAGE DOWN
   - $$mdi:arrow-left-bold$$
@@ -72,8 +72,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '1', s: '$$mdi:mouse-variant$$'}
-  - {h: '1', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-variant$$
+  - $$mdi:mouse$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
   - PLAY PAUSE

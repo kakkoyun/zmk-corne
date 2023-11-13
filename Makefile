@@ -6,12 +6,13 @@ download:
 unzip:
 	unzip -o dist/firmware.zip -d dist
 
-.PHONY: latest
-latest: download unzip
+.PHONY: download-latest
+download-latest: download unzip
 
 .PHONY: build
 build: left right
 
+# TODO(kakkoyun): Make local builds work.
 left:
 	west build -s zmk/app -b "nice_nano_v2" -- -DZMK_CONFIG="${PWD}/config" -DSHIELD="splitkb_aurora_corne_left nice_view_adapter nice_view"
 

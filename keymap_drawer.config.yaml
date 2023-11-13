@@ -671,16 +671,16 @@ parse_config:
     CAPS: $$mdi:apple-keyboard-caps$$
 
     # Mouse
-    U_BTN1: $$mdi:mouse$$
-    U_BTN2: $$mdi:mouse-variant$$
-    U_MS_U: $$mdi:chevron-double-up$$
-    U_MS_D: $$mdi:chevron-double-down$$
-    U_MS_L: $$mdi:chevron-double-left$$
-    U_MS_R: $$mdi:chevron-double-right$$
-    U_WH_U: $mdi:chevron-triple-up$$
-    U_WH_D: $$mdi:chevron-triple-down$$
-    U_WH_L: $$mdi:chevron-triple-left$$
-    U_WH_R: $$mdi:chevron-triple-right$$
+    MB1: $$mdi:mouse$$
+    MB2: $$mdi:mouse-variant$$
+    MOVE_UP: $$mdi:chevron-double-up$$
+    MOVE_DOWN: $$mdi:chevron-double-down$$
+    MOVE_LEFT: $$mdi:chevron-double-left$$
+    MOVE_RIGHT: $$mdi:chevron-double-right$$
+    SCROLL_UP: $mdi:chevron-triple-up$$
+    SCROLL_DOWN: $$mdi:chevron-triple-down$$
+    SCROLL_LEFT: $$mdi:chevron-triple-left$$
+    SCROLL_RIGHT: $$mdi:chevron-triple-right$$
 
     # Sound
     C_MUTE: $$mdi:volume-off$$

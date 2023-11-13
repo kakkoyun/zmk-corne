@@ -463,6 +463,57 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    # Mouse
+    "&mmv MS_UP":
+      shifted: $$mdi:chevron-double-up$$
+      tap: ""
+      hold: 1
+
+    "&mmv MS_DOWN":
+      shifted: $$mdi:chevron-double-down$$
+      tap: ""
+      hold: 1
+
+    "&mmv MS_LEFT":
+      shifted: $$mdi:chevron-double-left$$
+      tap: ""
+      hold: 1
+
+    "&mmv MS_RIGHT":
+      shifted: $$mdi:chevron-double-right$$
+      tap: ""
+      hold: 1
+
+    "&mmv MS_BTN1":
+      shifted: $$mdi:mouse$$
+      tap: ""
+      hold: 1
+
+    "&mmv MS_BTN2":
+      shifted: $$mdi:mouse-variant$$
+      tap: ""
+      hold: 1
+
+    "&mmh SCROLL_UP":
+      shifted: $$mdi:chevron-double-up$$
+      tap: ""
+      hold: 1
+
+    "&mmh SCROLL_DOWN":
+      shifted: $$mdi:chevron-double-down$$
+      tap: ""
+      hold: 1
+
+    "&mmh SCROLL_LEFT":
+      shifted: $$mdi:chevron-double-left$$
+      tap: ""
+      hold: 1
+
+    "&mmh SCROLL_RIGHT":
+      shifted: $$mdi:chevron-double-right$$
+      tap: ""
+      hold: 1
+
   # ZMK
   zmk_keycode_map:
     # Symbols
@@ -608,6 +659,7 @@ parse_config:
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
+
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
 
@@ -645,7 +697,6 @@ parse_config:
     MS_DOWN: $$mdi:chevron-double-down$$
     MS_LEFT: $$mdi:chevron-double-left$$
     MS_RIGHT: $$mdi:chevron-double-right$$
-
 
     # Sound
     C_MUTE: $$mdi:volume-off$$

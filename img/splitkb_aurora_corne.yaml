@@ -62,7 +62,6 @@ layers:
   - '&mmv MOVE_VERT(1250)'
   - '&mmv MOVE_HOR(1250)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAGE DOWN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -70,7 +69,6 @@ layers:
   - AL SCREENSAVER
   - VOLUME DOWN
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -84,9 +82,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LS(LC(LA(LGUI)))
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   symbol:
   - {t: '$$mdi:backspace$$', h: LEFT ALT}
   - '!'

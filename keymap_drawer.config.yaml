@@ -638,6 +638,15 @@ parse_config:
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
 
+    # Mouse
+    MS_BTN1: $$mdi:mouse$$
+    MS_BTN2: $$mdi:mouse-variant$$
+    MS_UP: $$mdi:chevron-double-up$$
+    MS_DOWN: $$mdi:chevron-double-down$$
+    MS_LEFT: $$mdi:chevron-double-left$$
+    MS_RIGHT: $$mdi:chevron-double-right$$
+
+
     # Sound
     C_MUTE: $$mdi:volume-off$$
     C_VOL_UP: $$mdi:volume-high$$

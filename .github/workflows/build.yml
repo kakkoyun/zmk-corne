@@ -1,6 +1,16 @@
 name: Build Firmware
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    paths:
+      - "build.yaml"
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "config/*.conf"
+      - "config/west.yml"
+      - "lib/*.dtsi"
 
 jobs:
   build:

@@ -46,9 +46,9 @@ layers:
   nav:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:chevron-double-down$$
+  - $$mdi:chevron-double-left$$
   - $$mdi:chevron-double-up$$
-  - $$mdi:chevron-double-up$$
+  - $$mdi:chevron-double-right$$
   - $$mdi:chevron-double-up$$
   - PAGE UP
   - HOME

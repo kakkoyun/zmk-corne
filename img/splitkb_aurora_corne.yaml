@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   qwerty:
-  - {t: '$$mdi:keyboard-tab$$', h: func}
+  - {t: '$$mdi:keyboard-tab$$', h: funcnum}
   - Q
   - W
   - E
@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - LGUI
-  - symbol
+  - symnum
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - nav
@@ -86,7 +86,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  symbol:
+  symnum:
   - {t: '$$mdi:backspace$$', h: LEFT ALT}
   - '!'
   - '@'
@@ -129,7 +129,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  func:
+  funcnum:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - F1
   - F2

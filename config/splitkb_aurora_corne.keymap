@@ -8,8 +8,8 @@
 
 #define QWERTY 0
 #define NAV 1
-#define SYMBOL 2
-#define FUNC 3
+#define SYMNUM 2
+#define FUNCNUM 3
 #define SYSCTL  4
 
 // keys
@@ -53,7 +53,7 @@
             >;
         };
 
-        symbol_layer {
+        symnum_layer {
             bindings = <
 &mt LEFT_ALT BACKSPACE  &kp EXCL   &kp AT     &kp HASH  &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES
 &mt LCTRL DELETE        &kp N1     &kp N2     &kp N3    &kp N4            &kp N5            &kp N6           &kp N7             &kp N8        &kp N9                &kp N0                 &kp MINUS
@@ -62,7 +62,7 @@
             >;
         };
 
-        func_layer {
+        funcnum_layer {
             bindings = <
 &none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
 &none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10     &none   &kp N4  &kp N5  &kp N6  &none   &none

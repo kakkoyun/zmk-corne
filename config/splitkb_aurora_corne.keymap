@@ -46,8 +46,8 @@
 
         nav_layer {
             bindings = <
-&kp LALT    &none   U_WH_D        U_MS_U         U_WH_U   &none                  &kp PAGE_UP    &kp HOME    &kp UP            &kp END     &kp C_SLEEP           &kp C_VOLUME_UP
-&kp LCTRL   &none   U_MS_L        U_MS_D         U_MS_R   &none                  &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_AL_SCREENSAVER  &kp C_VOLUME_DOWN
+&kp LALT    &none   U_WH_D        U_MS_U         U_WH_U   U_WH_U                  &kp PAGE_UP    &kp HOME    &kp UP            &kp END     &kp C_SLEEP           &kp C_VOLUME_UP
+&kp LCTRL   &none   U_MS_L        U_MS_D         U_MS_R   U_WH_D                  &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_AL_SCREENSAVER  &kp C_VOLUME_DOWN
 &kp LSHIFT  &none   &none         &none          U_BTN2   U_BTN1                 &none          &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_AL_LOCK         &kp K_MUTE
                                 &trans   &none    &kp HYPER                      &none          &trans      &trans
             >;

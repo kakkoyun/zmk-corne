@@ -49,7 +49,7 @@ layers:
   - $$mdi:chevron-double-down$$
   - $$mdi:chevron-double-up$$
   - $$mdi:chevron-double-up$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:chevron-double-up$$
   - PAGE UP
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -61,7 +61,7 @@ layers:
   - $$mdi:chevron-double-left$$
   - $$mdi:chevron-double-down$$
   - $$mdi:chevron-double-right$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:chevron-double-down$$
   - PAGE DOWN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$

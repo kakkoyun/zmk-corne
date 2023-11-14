@@ -81,7 +81,7 @@ layers:
   - $$mdi:lock$$
   - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - LS(LC(LA(LGUI)))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
@@ -127,7 +127,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   funcnum:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
